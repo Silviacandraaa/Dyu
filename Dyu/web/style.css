@@ -1,0 +1,113 @@
+body{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-color: black;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0,0,0,0.5));
+}
+
+header img {
+    width: 100px;
+    padding-left: 0%;
+}
+
+header .navbar ul{
+    display: flex;
+    float: right;
+    margin: 0;
+    padding-left: 70%;
+    font-size: 20pt;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+}
+
+h3{
+    color : rgb(32, 98, 241);
+}
+
+li{
+    list-style-type: none;
+}
+
+.top-text{
+    padding-top: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5em;
+}
+
+.PopularDrama{
+    margin-top: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.PopularDrama ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.PopularDrama img{
+    width: 280px;
+    height: 280px;
+}
+
+#g1:hover{
+    opacity: 0.5;
+}
+#g2:hover{
+    opacity: 0.5;
+}
+#g3:hover{
+    opacity: 0.5;
+}
+#g4:hover{
+    opacity: 0.5;
+}
+
+footer{
+    margin-top: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer ul{
+    display : flex;
+    justify-content : center;
+    padding-left: 0;
+}
+
+footer ul li{
+    margin: 5px;
+}
+
+footer ul li img{
+    width: 50px;
+}
+
+.form{
+    color: white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
